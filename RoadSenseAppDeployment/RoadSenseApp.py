@@ -9,11 +9,11 @@ def get_base64_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
     
-pathname = "/Users/pranavsharma/Desktop/NEU/IE7945MSProject/Final "
+#pathname = "/Users/pranavsharma/Desktop/NEU/IE7945MSProject/Final "
 
-side_logo_path = f"{pathname}/SideLogo.png"  
+side_logo_path = "SideLogo.png"  
 
-st.sidebar.image(f"{pathname}/Logo_Round22.png")
+st.sidebar.image("Logo_Round22.png")
 
 logo_base64 = get_base64_image(side_logo_path)
 st.markdown(
@@ -121,26 +121,26 @@ elif selected_button == "EDA":
     
     # Create tabs for Weather and Time Impact   
     with tab1:
-        st.image(f"{pathname}/EDA1.jpeg", caption="By State")
-        st.image(f"{pathname}/EDA2.jpeg", caption="By City")
-        st.image(f"{pathname}/EDA3.jpeg", caption="By Zipcode")
-        st.image(f"{pathname}/EDA10.jpeg", caption="By Days")
+        st.image("EDA1.jpeg", caption="By State")
+        st.image("EDA2.jpeg", caption="By City")
+        st.image("EDA3.jpeg", caption="By Zipcode")
+        st.image("EDA10.jpeg", caption="By Days")
 
     with tab2:
-        st.image(f"{pathname}/EDA4.jpeg", caption="Accident Locations")
-        st.image(f"{pathname}/Presence_of_Traffic_Signals.png", caption="Presence of Traffic Signals")
-        st.image(f"{pathname}/Traffic_Amenity.png", caption="Presence of Amenities")
+        st.image("EDA4.jpeg", caption="Accident Locations")
+        st.image("Presence_of_Traffic_Signals.png", caption="Presence of Traffic Signals")
+        st.image("Traffic_Amenity.png", caption="Presence of Amenities")
 
     
     with tab3:
-        st.image(f"{pathname}/EDA5.jpeg", caption="Correlation Matrix")
+        st.image("EDA5.jpeg", caption="Correlation Matrix")
     
     with tab4:
-        st.image(f"{pathname}/EDA7.jpeg", caption="Distribution of Weather Features")
-        st.image(f"{pathname}/EDA8.jpeg", caption="Distribution of Weather Features")
-        st.image(f"{pathname}/WindSpeedVariation_Monthly.png", caption="WindSpeed Variation Monthly")
-        st.image(f"{pathname}/WindSpeedVariation_Yearly.png", caption="WindSpeed Variation Yearly")
-        st.image(f"{pathname}/EDA9.jpeg", caption="Count of Wind Directions")
+        st.image("EDA7.jpeg", caption="Distribution of Weather Features")
+        st.image("EDA8.jpeg", caption="Distribution of Weather Features")
+        st.image("WindSpeedVariation_Monthly.png", caption="WindSpeed Variation Monthly")
+        st.image("WindSpeedVariation_Yearly.png", caption="WindSpeed Variation Yearly")
+        st.image("EDA9.jpeg", caption="Count of Wind Directions")
 
     with tab5:
         with open("Accident_Severity_pie.html", "r") as f:
@@ -173,9 +173,9 @@ elif selected_button == "Weather and Time Impact on Accident Severity":
 
 
     with tab1:
-        st.image(f"{pathname}/weather_time_output.png", caption="Classification Matrix")
+        st.image("weather_time_output.png", caption="Classification Matrix")
     with tab2:
-        st.image(f"{pathname}/weather_time_output2.png", caption="Feature Importance (PCA)")
+        st.image("weather_time_output2.png", caption="Feature Importance (PCA)")
 
     with tab3:
         st.write("""
@@ -213,7 +213,7 @@ elif selected_button == "Clustering Accident Patterns by Location and Traffic Co
     tab1, tab2 = st.tabs(["**Output**", "**💡 What's Happening Here? 💡** "])
 
     with tab1:
-        st.image(f"{pathname}/clustering_output.png", caption="Clustering Output")
+        st.image("clustering_output.png", caption="Clustering Output")
 
     with tab2:
         st.write("""
@@ -238,16 +238,16 @@ elif selected_button == "Daily Severity Forecasting by Location":
 
 
     with tab1:
-        st.image(f"{pathname}/severity_forecast.png", caption="Forecast of Average Severity")
+        st.image("severity_forecast.png", caption="Forecast of Average Severity")
 
     with tab2:
-        st.image(f"{pathname}/trend_over_years.png", caption="Trend Over Years")
+        st.image("trend_over_years.png", caption="Trend Over Years")
 
     with tab3:
-        st.image(f"{pathname}/severity_by_day_of_week_year.png", caption="Average Severity by Day of the Week and Yearly")
+        st.image("severity_by_day_of_week_year.png", caption="Average Severity by Day of the Week and Yearly")
 
     with tab4:
-        st.image(f"{pathname}/actual_vs_predicted.png", caption="Actual vs. Predicted Accident Severity")
+        st.image("actual_vs_predicted.png", caption="Actual vs. Predicted Accident Severity")
     with tab5:
         st.write("""
         ### **Forecast of Average Severity**
@@ -279,16 +279,16 @@ elif selected_button == "Location-Based Traffic Pattern Forecasting":
 
 
     with tab1:
-        st.image(f"{pathname}/loss_over_epochs.png", caption="Loss over Epochs")
+        st.image("loss_over_epochs.png", caption="Loss over Epochs")
 
     with tab2:
-        st.image(f"{pathname}/mae_over_epochs.png", caption="MAE over Epochs")
+        st.image("mae_over_epochs.png", caption="MAE over Epochs")
 
     with tab3:
-        st.image(f"{pathname}/predictions_vs_actual2.png", caption="Predictions vs. Actual Values")
+        st.image("predictions_vs_actual2.png", caption="Predictions vs. Actual Values")
 
     with tab4:
-        st.image(f"{pathname}/residuals_plot.png", caption="Residuals Plot")
+        st.image("residuals_plot.png", caption="Residuals Plot")
 
     with tab5:
         st.write("""
