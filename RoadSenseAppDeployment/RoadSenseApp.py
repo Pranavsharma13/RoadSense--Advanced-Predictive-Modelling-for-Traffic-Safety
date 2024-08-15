@@ -13,7 +13,7 @@ def get_base64_image(image_path):
 
 side_logo_path = "SideLogo.png"  
 
-st.sidebar.image("Logo_Round22.png")
+st.sidebar.image("Logo_Round2222.png")
 
 logo_base64 = get_base64_image(side_logo_path)
 st.markdown(
