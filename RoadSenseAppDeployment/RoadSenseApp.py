@@ -13,11 +13,11 @@ pathname = "https://raw.githubusercontent.com/Pranavsharma13/RoadSense--Advanced
 
 
 
-side_logo_path = f"{pathname}FinalSideLogo.png"
+side_logo_path = f"{pathname}FinalSideLogo.jpeg"
 
 #converted_side_Logo = get_base64_image(side_logo_path)
 
-st.sidebar.image("FinalMainLogo.png")
+st.sidebar.image(f"{pathname}FinalMainLogo.jpeg")
 
 #logo_base64 = get_base64_image(side_logo_path)
 st.markdown(
