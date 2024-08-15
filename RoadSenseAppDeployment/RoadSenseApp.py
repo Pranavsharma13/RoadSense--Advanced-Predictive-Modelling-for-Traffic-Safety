@@ -4,10 +4,10 @@ import base64
 selected_button = "Introduction"
 
 
-# Function to convert image to base64
-def get_base64_image(image_path):
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode()
+# # Function to convert image to base64
+# def get_base64_image(image_path):
+#     with open(image_path, "rb") as image_file:
+#         return base64.b64encode(image_file.read()).decode()
     
 pathname = "https://raw.githubusercontent.com/Pranavsharma13/RoadSense--Advanced-Predictive-Modelling-for-Traffic-Safety/main/RoadSenseAppDeployment/"
 
@@ -15,7 +15,7 @@ pathname = "https://raw.githubusercontent.com/Pranavsharma13/RoadSense--Advanced
 
 side_logo_path = f"{pathname}SideLogo.png"
 
-converted_side_Logo = get_base64_image(side_logo_path)
+#converted_side_Logo = get_base64_image(side_logo_path)
 
 st.sidebar.image("Logo_Round2222.png")
 
