@@ -12,7 +12,6 @@ selected_button = "Introduction"
 pathname = "https://raw.githubusercontent.com/Pranavsharma13/RoadSense--Advanced-Predictive-Modelling-for-Traffic-Safety/main/RoadSenseAppDeployment/"
 
 
-
 side_logo_path = f"{pathname}FinalSideLogo.jpeg"
 
 #converted_side_Logo = get_base64_image(side_logo_path)
