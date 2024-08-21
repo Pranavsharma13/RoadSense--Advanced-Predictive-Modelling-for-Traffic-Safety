@@ -131,8 +131,8 @@ elif selected_button == "EDA":
 
     with tab2:
         st.image(f"{pathname}EDA4.jpeg", caption="Accident Locations")
-        st.image("Presence_of_Traffic_Signals.jpg", caption="Presence of Traffic Signals")
-        st.image("Traffic_Amenity.jpg", caption="Presence of Amenities")
+        st.image("Presence_of_Traffic_Signals.jpeg", caption="Presence of Traffic Signals")
+        st.image("Traffic_Amenity.jpeg", caption="Presence of Amenities")
 
     
     with tab3:
@@ -141,8 +141,8 @@ elif selected_button == "EDA":
     with tab4:
         st.image(f"{pathname}EDA7.jpeg", caption="Distribution of Weather Features")
         st.image(f"{pathname}EDA8.jpeg", caption="Distribution of Weather Features")
-        st.image(f"{pathname}WindSpeedVariation_Monthly.jpg", caption="WindSpeed Variation Monthly")
-        st.image(f"{pathname}WindSpeedVariation_Yearly.jpg", caption="WindSpeed Variation Yearly")
+        st.image(f"{pathname}WindSpeedVariation_Monthly.jpeg", caption="WindSpeed Variation Monthly")
+        st.image(f"{pathname}WindSpeedVariation_Yearly.jpeg", caption="WindSpeed Variation Yearly")
         st.image(f"{pathname}EDA9.jpeg", caption="Count of Wind Directions")
 
     with tab5:
@@ -176,9 +176,9 @@ elif selected_button == "Weather and Time Impact on Accident Severity":
 
 
     with tab1:
-        st.image(f"{pathname}weather_time_output.jpg", caption="Classification Matrix")
+        st.image(f"{pathname}weather_time_output.jpeg", caption="Classification Matrix")
     with tab2:
-        st.image(f"{pathname}weather_time_output2.jpg", caption="Feature Importance (PCA)")
+        st.image(f"{pathname}weather_time_output2.jpeg", caption="Feature Importance (PCA)")
 
     with tab3:
         st.write("""
@@ -216,7 +216,7 @@ elif selected_button == "Clustering Accident Patterns by Location and Traffic Co
     tab1, tab2 = st.tabs(["**Output**", "**💡 What's Happening Here? 💡** "])
 
     with tab1:
-        st.image(f"{pathname}clustering_output.jpg", caption="Clustering Output")
+        st.image(f"{pathname}clustering_output.jpeg", caption="Clustering Output")
 
     with tab2:
         st.write("""
@@ -241,16 +241,16 @@ elif selected_button == "Daily Severity Forecasting by Location":
 
 
     with tab1:
-        st.image(f"{pathname}severity_forecast.jpg", caption="Forecast of Average Severity")
+        st.image(f"{pathname}severity_forecast.jpeg", caption="Forecast of Average Severity")
 
     with tab2:
-        st.image(f"{pathname}trend_over_years.jpg", caption="Trend Over Years")
+        st.image(f"{pathname}trend_over_years.jpeg", caption="Trend Over Years")
 
     with tab3:
-        st.image(f"{pathname}severity_by_day_of_week_year.jpg", caption="Average Severity by Day of the Week and Yearly")
+        st.image(f"{pathname}severity_by_day_of_week_year.jpeg", caption="Average Severity by Day of the Week and Yearly")
 
     with tab4:
-        st.image(f"{pathname}actual_vs_predicted.jpg", caption="Actual vs. Predicted Accident Severity")
+        st.image(f"{pathname}actual_vs_predicted.jpeg", caption="Actual vs. Predicted Accident Severity")
     with tab5:
         st.write("""
         ### **Forecast of Average Severity**
@@ -282,16 +282,16 @@ elif selected_button == "Location-Based Traffic Pattern Forecasting":
 
 
     with tab1:
-        st.image(f"{pathname}loss_over_epochs.jpg", caption="Loss over Epochs")
+        st.image(f"{pathname}loss_over_epochs.jpeg", caption="Loss over Epochs")
 
     with tab2:
-        st.image(f"{pathname}mae_over_epochs.jpg", caption="MAE over Epochs")
+        st.image(f"{pathname}mae_over_epochs.jpeg", caption="MAE over Epochs")
 
     with tab3:
-        st.image(f"{pathname}predictions_vs_actual2.jpg", caption="Predictions vs. Actual Values")
+        st.image(f"{pathname}predictions_vs_actual2.jpeg", caption="Predictions vs. Actual Values")
 
     with tab4:
-        st.image(f"{pathname}residuals_plot.jpg", caption="Residuals Plot")
+        st.image(f"{pathname}residuals_plot.jpeg", caption="Residuals Plot")
 
     with tab5:
         st.write("""
