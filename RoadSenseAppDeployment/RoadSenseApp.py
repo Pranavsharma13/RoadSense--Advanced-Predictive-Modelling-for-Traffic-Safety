@@ -4,17 +4,17 @@ import base64
 selected_button = "Introduction"
 
 
-# # Function to convert image to base64
-# def get_base64_image(image_path):
-#     with open(image_path, "rb") as image_file:
-#         return base64.b64encode(image_file.read()).decode()
+# Function to convert image to base64
+def get_base64_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode()
     
 pathname = "https://raw.githubusercontent.com/Pranavsharma13/RoadSense--Advanced-Predictive-Modelling-for-Traffic-Safety/main/RoadSenseAppDeployment/"
 
 
 side_logo_path = f"{pathname}FinalSideLogo.jpeg"
 
-#converted_side_Logo = get_base64_image(side_logo_path)
+converted_side_Logo = get_base64_image(side_logo_path)
 
 st.sidebar.image(f"{pathname}FinalMainLogo.jpeg")
 
@@ -41,7 +41,7 @@ st.markdown(
     }}
     </style>
     <div class="main-header">
-        <img src="data:image/png;base64,{side_logo_path}" alt="logo">
+        <img src="data:image/png;base64,{converted_side_Logo}" alt="logo">
         RoadSense - Advance Predictive Modeling of Traffic Saftey
     </div>
     """,
