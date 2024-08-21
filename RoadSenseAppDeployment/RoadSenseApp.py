@@ -102,7 +102,7 @@ if st.sidebar.button("Location-Based Traffic Pattern Forecasting"):
 
 # Handle each button selection
 if selected_button == "Introduction":
-    st.header("About Dataset")
+    st.header("About Project")
     st.write("""
         **Project Description:**
         This project, "RoadSense," is focused on developing advanced predictive models using machine learning techniques to analyze and forecast various aspects of road traffic accidents across the United States. By leveraging this extensive dataset, we aim to uncover insights and patterns that can help improve road safety and reduce accident severity.
