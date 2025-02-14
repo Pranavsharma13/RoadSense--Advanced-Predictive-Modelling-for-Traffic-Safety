@@ -314,9 +314,9 @@ This section summarizes the performance of the various machine learning models d
 
 ## 🔹 Conclusion & Future Work
 🚀 **Next Steps for RoadSense**:
-✅ **Integrate real-time traffic & weather data** for dynamic risk analysis.
-✅ **Extend the RoadSense App with a web-based interactive dashboard for traffic authorities**.
-✅ **Collaborate with municipalities to implement data-driven road safety measures**.
+- ✅ **Integrate real-time traffic & weather data** for dynamic risk analysis.
+- ✅ **Extend the RoadSense App with a web-based interactive dashboard for traffic authorities**.
+- ✅ **Collaborate with municipalities to implement data-driven road safety measures**.
 
 ---
 
