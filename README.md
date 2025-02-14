@@ -56,7 +56,7 @@ By leveraging **supervised and unsupervised learning techniques**, the project a
 
 ## 🔹 Project Goals & Objectives
 The primary objective of **RoadSense** is to build a **scalable and interpretable machine learning pipeline** to enhance road safety through predictive modeling.
-
+![RoadSense Github Upload_page-0003](https://github.com/user-attachments/assets/879c230d-17d6-43bc-8fb9-f982e9efc2b4)
 ### **Key Goals:**
 - ✔ **Develop Accurate Models:** Train and evaluate **Random Forest, K-Means, DBSCAN, Prophet, and LSTM models** to predict accident severity and detect high-risk zones.
 - ✔ **Improve Interpretability:** Use feature importance analysis, SHAP values, and visual tools to ensure model insights can be **understood by policymakers**.
@@ -65,6 +65,7 @@ The primary objective of **RoadSense** is to build a **scalable and interpretabl
 - ✔ **Enable Actionable Insights:** Provide **data-driven recommendations** for government agencies and urban planners to improve road safety.
 
 By achieving these goals, **RoadSense** will contribute to reducing road accidents and improving public safety through AI-powered analysis.
+
 
 ---
 
