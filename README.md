@@ -160,15 +160,13 @@ This section summarizes the performance of the various machine learning models d
 ## 🔹 Conclusion & Future Work
 🚀 **Next Steps for RoadSense**:
 ✅ **Integrate real-time traffic & weather data** for dynamic risk analysis.
-✅ **Enhance deep learning models (CNNs, Autoencoders) for improved predictions**.
-✅ **Develop a web-based interactive dashboard for traffic authorities**.
+✅ **Extend the RoadSense App with a web-based interactive dashboard for traffic authorities**.
 ✅ **Collaborate with municipalities to implement data-driven road safety measures**.
 
 ---
 
 ## 📌 Get in Touch
 📧 pranavsharma1395@gmail.com  
-📞 +1 (778) 598-6373  
 🌐 [LinkedIn](https://www.linkedin.com/in/pranav-harish-sharma/)  
 🔗 **Project Repository**: [GitHub Link](https://github.com/user/RoadSense)
 
