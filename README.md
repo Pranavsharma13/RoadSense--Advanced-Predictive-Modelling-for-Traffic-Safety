@@ -1,8 +1,6 @@
 # 🚦 RoadSense: Advanced Predictive Modeling for Traffic Safety
 
-
 Access the RoadSense App here: https://roadsense-trafficsaftey.streamlit.app/
-
 ![RoadSenseCoverpage_page-0001](https://github.com/user-attachments/assets/9e8029f6-83cd-4bdc-9b83-6bfe5cb2de39)
 
 ## 🏆 Project Overview
