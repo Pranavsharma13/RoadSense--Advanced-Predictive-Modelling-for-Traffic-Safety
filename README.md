@@ -1,7 +1,7 @@
 # 🚦 RoadSense: Advanced Predictive Modeling for Traffic Safety
 
 Access the RoadSense App here: https://roadsense-trafficsaftey.streamlit.app/
-![RoadSenseCoverpage_page-0001](https://github.com/user-attachments/assets/9e8029f6-83cd-4bdc-9b83-6bfe5cb2de39)
+![RoadSenseCoverpage_page-0001](https://github.com/user-attachments/assets/5e432e77-b7b7-46b2-acd7-0ff0208ee495)
 
 ## 🏆 Project Overview
 RoadSense is a machine learning-driven initiative designed to predict and analyze traffic accident severity using the US-Accidents dataset, which contains over **2.25 million records** from 2016 to 2023. This project employs **Random Forest, LSTM, CNNs, Prophet**, and clustering techniques to assess accident patterns and severity based on weather, traffic, and temporal data.
