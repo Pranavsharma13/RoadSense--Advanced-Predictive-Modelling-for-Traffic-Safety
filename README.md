@@ -319,7 +319,6 @@ This section summarizes the performance of the various machine learning models d
 ---
 
 ## 📌 Get in Touch
-📧 pranavsharma1395@gmail.com  
 🌐 [LinkedIn](www.linkedin.com/in/pranav-sharma-180895120)  
 🔗 **Project Repository**: [GitHub Link](https://github.com/Pranavsharma13/)
 
